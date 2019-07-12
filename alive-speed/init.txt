@@ -1,0 +1,14 @@
+1. winwindos安装pip
+进入cmd
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+
+2.生产新的项目
+django-admin startproject alive
+
+3. 生成新的应用
+python manage.py startapp speed
+
+4.安装mongodb的驱动
+pip install pymongo
+
+python manage.py runserver
